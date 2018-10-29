@@ -11,7 +11,7 @@ import datetime
 import re
 import json
 import geocoder #If needing to pip install use "pip install geocoder" or pip3 depending on version of python
-import serial
+import serial #If needing to pip install use "pip install pyserial" or pip3 depending on version of python
 import io
 import threading
 if os.name == 'nt': 
