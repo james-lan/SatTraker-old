@@ -15,7 +15,7 @@ import serial #If needing to pip install use "pip install pyserial" or pip3 depe
 import io
 import threading
 if os.name == 'nt': 
-	import win32com.client
+	import win32com.client #If needing to pip install use "pip install pypiwin32" or pip3 depending on version of python
 #TODO add conditionals around win32 code
 from PIL import Image as PILImage, ImageTk #If needing to pip install use "pip install Pillow" or pip3 depending on version of python
 from urllib.request import urlopen
