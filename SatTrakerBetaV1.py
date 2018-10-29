@@ -1,23 +1,23 @@
 from tkinter import *
 from tkinter import filedialog
-import ephem
+import ephem  #If needing to pip install use "pip install pyephem" or pip3 depending on version of python
 import math
 import os
-import cv2 #If needing to pip install use pip/pip3 install opencv-python depending on version of python
+import cv2 #If needing to pip install use "pip install opencv-python" or pip3 depending on version of python
 import numpy as np
 import sys
 import time
 import datetime
 import re
 import json
-import geocoder #If needing to pip install use pip/pip3 install geocoder depending on version of python
+import geocoder #If needing to pip install use "pip install geocoder" or pip3 depending on version of python
 import serial
 import io
 import threading
 if os.name == 'nt': 
 	import win32com.client
 #TODO add conditionals around win32 code
-from PIL import Image as PILImage, ImageTk #If needing to pip install use pip/pip3 install Pillow  depending on version of python
+from PIL import Image as PILImage, ImageTk #If needing to pip install use "pip install Pillow" or pip3 depending on version of python
 from urllib.request import urlopen
 
 class trackSettings:
